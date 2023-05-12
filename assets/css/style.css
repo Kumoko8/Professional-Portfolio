@@ -1,7 +1,172 @@
+   :root {
+      --back-color: rgb(116, 201, 192);
+   }
+  
    * {
     font-family: Georgia, 'Times New Roman', Times, serif;
    }
 
    header {
-    background-color: rgb(116, 201, 192);
+      position: sticky;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(116, 201, 192);
    }
+   h1 {
+      background-color: white;
+      height:fit-content;
+      padding-left: 50px;
+   }
+   nav {
+      margin: 2%;
+   }
+   nav li {
+      display: inline-block;
+      padding: 5px;
+      font-size: 20px;
+      text-decoration: underline;
+   }
+   .subtitle {
+      background-image: url(../../assets/images/Kamakiri-background.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height:400px;
+      width: auto;
+      justify-content: space-between;
+      border: solid black;
+      display: flex;
+      padding: 20px;
+   }
+   .sub-text {
+      position:sticky ;
+      top: 90%;
+      left: 60%;
+      display: flex;
+      background-color: var(--back-color);
+      height: fit-content;
+      margin: 10px;
+   }
+   .sections-justify {
+      display: flex;
+     
+   }
+   .sections-justify >h2 {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   #background-char {
+      background-image: url(../../assets/images/Character-background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 700px;
+      
+   }
+   #background-field {
+      background-image: url(../../assets/images/Field-background.png);
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+   }
+   #background-beach {
+      background-image: url(../../assets/images/Beach-background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+   }
+   #background-desert {
+      background-image: url(../../assets/images/Desert-background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+   }
+   #background-mountain {
+      background-image: url(../../assets/images/Mountain-background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+   }
+   h2 {
+      padding-right: 10px;
+      text-align: right;
+   }
+   .h3-deco {
+      background-color: var(--back-color);
+      position:relative;
+      top: 10%;
+      width:fit-content
+      
+   
+   }
+   h3 {
+      font-size: small;
+      text-align: left;
+     
+   
+   }
+   h4 {
+      font-size: 10px;
+   }
+
+   .border-left {
+      display: flex;
+      flex-wrap:wrap;
+      border-left: solid grey;
+      padding-left: 13px;
+   }
+   .ul-inline {
+      display: flex;
+      display: inline;
+   }
+   .background-img {
+      width: 50%;
+      display:inline-block;
+   }
+   #large-work-sample {
+      width: 440px;
+      height: 300px;
+   }
+   .img-deco {
+      box-sizing: content-box;
+      flex: 1 1 200px;
+      border: solid var(--back-color);
+      margin: 10px;
+   
+   }
+   h2 > p {
+      display: flex;
+      display: inline-block;
+   }
+   .logo-image {
+      max-block-size: 500px;
+      display: flex;
+   }
+
+   .hidden-links {
+      font-size: 80px;
+      background-size:cover;
+     visibility: hidden;
+      
+
+   }
+      
+   /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+   header {
+     background: #772014;
+   }
+ }
+ 
+ /* Large smartphones - navbar changes color */
+ @media screen and (max-width: 768px) {
+   nav {
+     background-color: #bb8588;
+   }
+ }
+ 
+ /* Small smartphones - image placeholders change color */
+ @media screen and (max-width: 576px) {
+   .sample-img {
+     background-color: #8ac4ff;
+   }
+ }
