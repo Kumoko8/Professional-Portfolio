@@ -8,11 +8,16 @@ Use this webpage as a template or design inspiration for what your portfolio cou
 
 # Screenshots
 
+![Screen Shot 2023-05-12 at 1 17 05 AM](https://github.com/Kumoko8/Challenge-2/assets/131223690/78bb987d-90e5-4d4c-a47e-e2f94b19eed4)
 
+![Screen Shot 2023-05-12 at 1 18 12 AM](https://github.com/Kumoko8/Challenge-2/assets/131223690/144c54e5-b1e1-4516-a71f-2faeae5ea093)
 
 
 # Link to Live Page
 
+https://kumoko8.github.io/Challenge-2/#nav-contact-me
 
+# License
+MIT
 
 
