@@ -27,7 +27,7 @@
       text-decoration: underline;
    }
    .subtitle {
-      background-image: url(../../assets/images/Kamakiri-background.png);
+      background-image: url(../../assets/images/code-art-logos.PNG);
       background-size: contain;
       background-repeat: no-repeat;
       height:400px;
@@ -55,11 +55,12 @@
       flex-wrap: wrap;
    }
    #background-char {
-      background-image: url(../../assets/images/Character-background.png);
+      background-image: url(https://github.com/Kumoko8/Group-Project-1-WebApp/assets/131223690/89788991-a1f8-4358-88e2-e00c52dbeddf);
       background-size: cover;
       background-repeat: no-repeat;
       height: 400px;
       width: 700px;
+      position: relative;
       
    }
    #background-field {
@@ -92,9 +93,11 @@
    }
    .h3-deco {
       background-color: var(--back-color);
-      position:relative;
-      top: 10%;
-      width:fit-content
+      position:absolute;
+      bottom: -1%;
+      padding: 2%;
+      width:fit-content;
+      border-radius: 7%;
       
    
    }
@@ -153,14 +156,14 @@
    /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
    header {
-     background: #772014;
+     background: #17a1a1;
    }
  }
  
  /* Large smartphones - navbar changes color */
  @media screen and (max-width: 768px) {
    nav {
-     background-color: #bb8588;
+     background-color: #ffffff;
    }
  }
  
