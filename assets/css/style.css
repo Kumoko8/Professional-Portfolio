@@ -8,6 +8,7 @@
 
    header {
       position: sticky;
+      top:2px;
       display: flex;
       justify-content: space-between;
       background-color: rgb(116, 201, 192);
@@ -15,10 +16,13 @@
    h1 {
       background-color: white;
       height:fit-content;
-      padding-left: 50px;
+      padding: 2%;
+      position: relative;
+      
    }
    nav {
       margin: 2%;
+      padding: 1%;
    }
    nav li {
       display: inline-block;
@@ -30,21 +34,23 @@
       background-image: url(../../assets/images/code-art-logos.PNG);
       background-size: contain;
       background-repeat: no-repeat;
+      background-position: center;
       height:400px;
-      width: auto;
       justify-content: space-between;
+      box-sizing: border-box;
       border: solid black;
       display: flex;
       padding: 20px;
+      
    }
    .sub-text {
-      position:sticky ;
-      top: 90%;
-      left: 60%;
+      position:absolute ;
+      bottom: -8%;
       display: flex;
       background-color: var(--back-color);
       height: fit-content;
-      margin: 10px;
+      font-size: small;
+
    }
    .sections-justify {
       display: flex;
@@ -88,17 +94,15 @@
       
    }
    h2 {
-      padding-right: 10px;
-      text-align: right;
+      padding: 10px;
+      text-align: center;
    }
    .h3-deco {
       background-color: var(--back-color);
       position:absolute;
       bottom: -1%;
       padding: 2%;
-      width:fit-content;
-      border-radius: 7%;
-      
+      width:fit-content;      
    
    }
    h3 {
@@ -116,6 +120,10 @@
       flex-wrap:wrap;
       border-left: solid grey;
       padding-left: 13px;
+   }
+
+   .border-radius {
+      border-radius: 10px;
    }
    .ul-inline {
       display: flex;
