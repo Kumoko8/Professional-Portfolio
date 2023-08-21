@@ -8,7 +8,7 @@
 
    header {
       position: sticky;
-      top:2px;
+      top:0px;
       display: flex;
       justify-content: space-between;
       background-color: rgb(116, 201, 192);
@@ -62,6 +62,15 @@
    }
    #background-char {
       background-image: url(https://github.com/Kumoko8/Group-Project-1-WebApp/assets/131223690/89788991-a1f8-4358-88e2-e00c52dbeddf);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 700px;
+      position: relative;
+      
+   }
+   #background-dog {
+      background-image: url(../images/dog-background.PNG);
       background-size: cover;
       background-repeat: no-repeat;
       height: 400px;
