@@ -61,7 +61,6 @@
       flex-wrap: wrap;
    }
    #background-char {
-      background-image: url(https://github.com/Kumoko8/Group-Project-1-WebApp/assets/131223690/89788991-a1f8-4358-88e2-e00c52dbeddf);
       background-size: cover;
       background-repeat: no-repeat;
       height: 400px;
@@ -147,7 +146,9 @@
       height: 300px;
    }
    .img-deco {
-      box-sizing: content-box;
+      box-sizing: border-box;
+      width: 50%;
+      height: auto;
       flex: 1 1 200px;
       border: solid var(--back-color);
       margin: 10px;
