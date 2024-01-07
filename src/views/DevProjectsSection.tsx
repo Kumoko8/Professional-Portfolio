@@ -91,7 +91,7 @@ DevProjectsSection.propTypes = {
       url: PropTypes.string,
     })
   ).isRequired,
-  sectionTitle: PropTypes.string.isRequired,
+  sectionTitle: PropTypes.string,
   additionalProps: PropTypes.arrayOf(PropTypes.object),
   button: PropTypes.shape({
     label: PropTypes.string.isRequired,

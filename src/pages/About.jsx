@@ -35,7 +35,7 @@ function AboutMe() {
         </Typography>
 
       </div>
-        <Typography variant="h6" sx={{ marginBottom: 2, padding: 10, maxWidth: 1000, display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center' }}>
+        <Typography variant="h6" sx={{ marginBottom: 2, padding: 10, maxWidth: 1000, display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center', color: 'black' }}>
           <p style={{ justifyContent: 'center', display: 'flex' }}>
 
             Seven years experience teaching middle school math and science gives me insight into how people think & learn and has developed a love for helping people excel. A lifetime of being an artist has given me an eye for design and love for character development and illustration. My experience as a full-stack web developer has allowed me the opportunity to bring it all together and breathe life into learning.
