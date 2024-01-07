@@ -11,7 +11,6 @@ function Contact() {
     }, []);
     return (
         <React.Fragment>
-            <AppAppBar />
             <div>
                 <div>
                     <h1> Contact</h1>
