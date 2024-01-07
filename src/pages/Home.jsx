@@ -24,7 +24,7 @@ const mainProjects = [
         imageSrc: '/images/plantGuyLogo.webp',
         title: 'Plant Guy',
         description: 'Feel the fresh and pure air that every office plant provides! ',
-        url: 'https://kumoko8.github.io/Front-End-App-DnD-Character-Project/'
+        url: 'https://plantguy.netlify.app'
     },
     
 ];

@@ -22,7 +22,7 @@ import DevProjectsSection from '../views/DevProjectsSection';
             description: '//Coming soon// Discover the endless journey of learning',
         },
         {
-            imageSrc: '/images/dnd.webp',
+            imageSrc: '/images/weatherLogo.webp',
             title: "How's The Weather?",
             description: '//Coming soon// Prepare yourself for anything',
         },
