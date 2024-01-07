@@ -40,7 +40,7 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button })
           </Grid>
         </Grid>
       </div>
-      <Box component="section" sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'success.main' }}>
+      <Box component="section" sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'warning.main' }}>
         <div>
           <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
             <Grid container spacing={5}>

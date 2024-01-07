@@ -25,7 +25,7 @@ function ContactForm() {
         to="/contact"
       >
         <Typography variant="h4" component="span">
-          Wanna Liven Your Space? Click here!
+          Let's Create Together!
         </Typography>
       </Button>
       <Typography variant="subtitle1" sx={{ my: 3 }}>
