@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '../components/Typography';
-import '../../../src/index.css'
+import '../index.css'
 
 
 function Hero() {
@@ -12,9 +12,9 @@ function Hero() {
     <div>
 
 
-        <Container component="section" sx={{ mt: -6, display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', position: 'relative' }}>
+        <Container component="section" sx={{ marginBottom: '10', display: 'flex', justifyContent: 'center', alignItems: 'center', width:'100%', height: 'auto', position: 'relative' }}>
         
-          <img src='/images/visionBack.webp' style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src='/images/visionBack.webp' style={{ position: 'absolute', width: '100%', maxHeight: '15rem', objectFit: 'cover' }} />
 
 
           {/* Content overlay */}

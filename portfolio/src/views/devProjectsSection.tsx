@@ -23,7 +23,7 @@ const imageContainer: SxProps<Theme> = {
   },
 };
 
-function DevProjects({ projects, sectionTitle, additionalProps, button }) {
+function DevProjectsSection({ projects, sectionTitle, additionalProps, button }) {
   const mergedProjects = projects.map((project, index) => ({
     ...project,
     ...(additionalProps?.[index] || {}), // Check if additionalProps is defined
@@ -82,7 +82,7 @@ function DevProjects({ projects, sectionTitle, additionalProps, button }) {
   );
 }
 
-DevProjects.propTypes = {
+DevProjectsSection.propTypes = {
   projects: PropTypes.arrayOf(
     PropTypes.shape({
       imageSrc: PropTypes.string.isRequired,
@@ -99,4 +99,4 @@ DevProjects.propTypes = {
   }),
 };
 
-export default DevProjects;
+export default DevProjectsSection;

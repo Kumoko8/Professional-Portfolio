@@ -1,9 +1,10 @@
 import * as React from 'react';
 
-import ContactRequestIntake from '../modules/views/ContactRequestIntake';
-import DevProjects from '../modules/views/DevProjects';
-import VisionHero from '../modules/views/VisionHero';
-import withRoot from '../components/WithRoot';
+import ContactForm from '../views/ContactForm';
+import DevProjectsSection from '../views/DevProjectsSection';
+import Hero from '../views/Hero';
+import WithRoot from '../components/WithRoot';
+import WithScrollToTop from '../components/WithScrollToTop';
 
 
 const mainProjects = [
@@ -35,11 +36,11 @@ const currentProjectsButton =
 function Index() {
     return (
         <React.Fragment>
-            <VisionHero />
-            <DevProjects projects={mainProjects} sectionTitle="Dev Projects" button={currentProjectsButton} />
-            <ContactRequestIntake />
+            <Hero />
+            <DevProjectsSection projects={mainProjects} sectionTitle="Dev Projects" button={currentProjectsButton} />
+            <ContactForm />
         </React.Fragment>
     );
 }
 
-export default withRoot(Index);
+export default WithRoot(WithScrollToTop(Index));

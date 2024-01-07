@@ -1,15 +1,13 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import Typography from '../modules/components/Typography';
-import withRoot from '../modules/withRoot';
-import AppAppBar from '../modules/views/AppAppBar';
-import withScrollToTop from '../modules/withScrollToTop';
+import Typography from '../components/Typography';
+import WithRoot from '../components/WithRoot';
+import WithScrollToTop from '../components/WithScrollToTop';
 
 function AboutMe() {
   return (
     <React.Fragment>
-      <AppAppBar />
       <div>
         <Container component="section" sx={{ mt: -6, display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', position: 'relative' }}>
           <img
@@ -52,4 +50,4 @@ function AboutMe() {
     </React.Fragment>
   );
 }
-export default withRoot(withScrollToTop(AboutMe));
+export default WithRoot(WithScrollToTop(AboutMe));

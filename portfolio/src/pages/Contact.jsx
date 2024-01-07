@@ -1,7 +1,7 @@
 import * as React from 'react';
-import withRoot from '../components/WithRoot';
+import WithRoot from '../components/WithRoot';
 import HubSpotForm from 'react-hubspot-form';
-import withScrollToTop from '../components/WithScrollToTop';
+import WithScrollToTop from '../components/WithScrollToTop';
 
 
 
@@ -43,4 +43,4 @@ function Contact() {
         </React.Fragment>
     )
 };
-export default withRoot(withScrollToTop(Contact));
+export default WithRoot(WithScrollToTop(Contact));
