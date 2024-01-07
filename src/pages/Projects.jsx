@@ -8,30 +8,25 @@ import DevProjectsSection from '../views/DevProjectsSection';
 
 
     const allProjects = [
+      
         {
-            imageSrc: '/images/dnd.webp',
-            title: 'Plant Guy',
-            description: 'Feel the fresh and pure air that every office plant provides! ',
-            url: 'https://kumoko8.github.io/Front-End-App-DnD-Character-Project/'
-        },
-        {
-            imageSrc: '/images/dnd.webp',
-            title: 'D&D Character Generator',
-            description: 'Dive into a new world with your own role play character. Get ready to roll the dice.',
-            url: 'https://kumoko8.github.io/Front-End-App-DnD-Character-Project/'
-        },
-        {
-            imageSrc: '/images/Invizlogo.webp',
-            title: 'INVIZ Productivity',
-            description: 'Transform the everyday things you have to do into a wonderful journey you want to be a part of.',
-            url: 'https://invizproductivity4.wordpress.com/'
-        },
-        {
-            imageSrc: '/images/collectibles.webp',
+            imageSrc: '/images/collectiblesLogo.webp',
             title: 'Collectibles',
             description: 'Keep all the antiques and novelties you treasure in one place and share them with others.',
             url: 'https://project-collections-cfb3d3b9c8f8.herokuapp.com/'
         },
+        
+        {
+            imageSrc: '/images/infiniteLogo.webp',
+            title: 'Infinite Tutoring',
+            description: '//Coming soon// Discover the endless journey of learning',
+        },
+        {
+            imageSrc: '/images/dnd.webp',
+            title: "How's The Weather?",
+            description: '//Coming soon// Prepare yourself for anything',
+        },
+
     ];
 
     const projectsBackButton =
@@ -47,7 +42,7 @@ function Projects() {
       <React.Fragment>
         <div>
               <Typography variant="h2" component="h2" gutterBottom sx={{ marginBottom: -3, color: 'black' }}>
-                All Projects
+                More Projects
               </Typography>
            <DevProjectsSection projects={allProjects} button={projectsBackButton} />
           </div>
