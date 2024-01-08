@@ -22,8 +22,8 @@ const TransparentBackgroundText = ({ text }) => {
         sx={{
           position: 'absolute',
           top: 28,
-          left: -450,
-          right: -450,
+          left: -300,
+          right: -300,
           bottom: 47,
           backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the alpha value as needed
           zIndex: -1,

@@ -16,7 +16,7 @@ function Contact() {
         <React.Fragment>
             <div>
                 <div>
-                    <Typography variant="h3" component="h3" gutterBottom sx={{ marginBottom: 2, color: 'black' }}>
+                    <Typography variant="h3" component="h3" gutterBottom sx={{ marginBottom: 2, color: 'black', textAlign: 'center' }}>
                         Contact Me
                     </Typography>
                 </div>
@@ -26,6 +26,7 @@ function Contact() {
 
                 <Box sx={{ display: 'flexbox', flexDirection: 'column', flexGrow: 1 }}>
                     <HubSpotForm
+                        id="hubspot-form"
                         sx={{}}
                         portalId="44406398"
                         formId="b8e767ed-bf30-47bc-b2e3-150d52611e2c"
@@ -43,7 +44,7 @@ function Contact() {
                     </Typography>
                 </div>
 
-                <div style={{display: 'flexbox', flexDirection: 'column', flexGrow: 1 }} className="meetings-iframe-container">
+                <div style={{display: 'flex', flexDirection: 'column', flexGrow: 1 }} className="meetings-iframe-container">
                     <iframe
                         src="https://meetings.hubspot.com/taylor-golden?embed=true"
                         width="800"
