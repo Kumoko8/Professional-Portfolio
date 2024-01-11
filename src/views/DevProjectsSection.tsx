@@ -40,7 +40,7 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button })
           </Grid>
         </Grid>
       </div>
-      <Box component="section" sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'warning.main' }}>
+      <Box component="section" sx={{ display: 'flex', overflow: 'hidden', bgcolor: 'warning.main', justifyContent: 'center' }}>
         <div>
           <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
             <Grid container spacing={5}>
@@ -52,13 +52,13 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button })
                         component="img"
                         src={project.imageSrc}
                         alt={`project-${index}`}
-                        sx={{ height: 205, transition: 'transform 0.3s ease-in-out', mb:3}}
+                        sx={{ height: '15em', transition: 'transform 0.3s ease-in-out', mb:3}}
                       />
                     </a>
-                    <Typography variant="h5" sx={{ my: 1, color: 'black' }}>
+                    <Typography variant="h5" sx={{ my: 1, color: 'rgb(26, 71, 146)' }}>
                       {project.title}
                     </Typography>
-                    <Typography variant="h6" sx={{ my: 5, color: 'white' }}>{project.description}</Typography>
+                    <Typography variant="h6" sx={{ my: 5, color: 'black', maxWidth: '80%', margin: 'auto' }}>{project.description}</Typography>
                   </Box>
                 </Grid>
               ))}

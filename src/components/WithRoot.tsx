@@ -9,7 +9,7 @@ export default function WithRoot<P extends JSX.IntrinsicAttributes>(
   function WithRoot(props: P) {
     return (
       <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+        
         <CssBaseline />
         <div style={{ overflowX: 'hidden' }}>
           {/* Ensure that no horizontal overflow occurs */}

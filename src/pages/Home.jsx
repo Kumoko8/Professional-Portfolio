@@ -25,7 +25,7 @@ const mainProjects = [
         title: 'Plant Guy',
         description: 'Feel the fresh and pure air that every office plant provides! ',
         url: 'https://plantguy.netlify.app'
-    },
+    }
     
 ];
 const currentProjectsButton =

@@ -9,8 +9,10 @@ const TransparentBackgroundText = ({ text }) => {
         color: 'white',
         textAlign: 'center',
         padding: '1rem',
-        maxWidth: '600px', // Adjust as needed
-        margin: 'auto', // Center horizontally
+        maxWidth: '100%', 
+        margin: 'auto', 
+        display:'flexbox',
+      
       }}
     >
       <Typography variant="h1" component="h1" gutterBottom style={{color: 'white'}}>
