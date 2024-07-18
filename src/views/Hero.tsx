@@ -41,7 +41,7 @@ function Hero() {
           color: 'rgb(249 219 56)'
         }}
       >
-        Full-Stack Web Developer
+        Developer * Artist * Educator
       </Typography>
       </Box>
       <Typography

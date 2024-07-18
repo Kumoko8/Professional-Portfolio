@@ -38,24 +38,7 @@ function Contact() {
                 <p style={{ color: 'black' }}>
                     Contact form not working? Try <a href="https://share.hsforms.com/1uOdn7b8wR7yy4xUNUmEeLAqfs72" target="_blank"> this </a> link
                 </p>
-                <div>
-                    <Typography variant="h3" component="h3" gutterBottom sx={{ marginBottom: 2, color: 'black' }}>
-                        or Set Up a Time to Chat!
-                    </Typography>
-                </div>
-
-                <div style={{display: 'flex', flexDirection: 'column', flexGrow: 1 }} className="meetings-iframe-container">
-                    <iframe
-                        src="https://meetings.hubspot.com/taylor-golden?embed=true"
-                        width="800"
-                        height="600"
-                        style={{ border: '0' }}
-                        allowFullScreen
-                    />
-                </div>
-                <p style={{ color: 'black' }}>
-                    Meeting form not working? Try <a href="https://meetings.hubspot.com/taylor-golden" target="_blank"> this </a> link
-                </p>
+        
             </div>
         </React.Fragment>
     )

@@ -39,7 +39,6 @@ function Index() {
         <React.Fragment>
             <Hero />
             <DevProjectsSection projects={mainProjects} sectionTitle="Dev Projects" button={currentProjectsButton} />
-            <ContactForm />
         </React.Fragment>
     );
 }

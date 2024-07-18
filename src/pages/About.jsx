@@ -30,7 +30,7 @@ function AboutMe() {
           </Box>
         </Container>
         <Typography variant="h4" sx={{ margin: 5, mt: 12, mb: 5 }}>
-          Web Developer | Illustrator | Educator | Family Man
+          Web Developer | Artist | Educator | Family Man
         </Typography>
 
       </div>
