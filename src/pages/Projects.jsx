@@ -9,23 +9,21 @@ import DevProjectsSection from '../views/DevProjectsSection';
 
     const allProjects = [
       
-        {
-            imageSrc: '/images/collectiblesLogo.webp',
-            title: 'Collectibles',
-            description: 'Keep all the antiques and novelties you treasure in one place and share them with others.',
-            url: 'https://project-collections-cfb3d3b9c8f8.herokuapp.com/'
-        },
+        
         
         {
-            imageSrc: '/images/infiniteLogo.webp',
-            title: 'Infinite Tutoring',
-            description: '//Coming soon// Discover the endless journey of learning',
+            imageSrc: '/images/DnDThumb.webp',
+            title: 'D&D Character Generator',
+            description: 'Dive into a new world with your own role play character. Get ready to roll the dice.',
+            url: 'https://kumoko8.github.io/Front-End-App-DnD-Character-Project/'
+
         },
         {
-            imageSrc: '/images/weatherLogo.webp',
-            title: "How's The Weather?",
-            description: '//Coming soon// Prepare yourself for anything',
+            imageSrc: '/images/invis-art.JPG',
+            title: "Invisible Story Artwork",
+            description: '//Coming soon// Meet the characters behind the unseen story',
         },
+
 
     ];
 

@@ -41,12 +41,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
     }),
     marginRight: 0,
   }),
-  /**
-   * This is necessary to enable the selection of content. In the DOM, the stacking order is determined
-   * by the order of appearance. Following this rule, elements appearing later in the markup will overlay
-   * those that appear earlier. Since the Drawer comes after the Main content, this adjustment ensures
-   * proper interaction with the underlying content.
-   */
+ 
   position: 'relative',
 }));
 
@@ -107,7 +102,7 @@ export default function PersistentDrawerRight() {
       <AppBar position="fixed" open={open}>
         <Toolbar>
             <Link to='/'>
-            <img src="/images/kiiroLogo.webp" style={{ maxHeight: '56px', marginRight: '10px' }}/>
+            <img src="/images/new-K-logo.JPG" style={{ maxHeight: '75px', maxWidth:'75px', marginRight: '10px', borderRadius: 8 }}/>
             </Link>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 , textAlign: 'right'}} component="div">
             Menu
