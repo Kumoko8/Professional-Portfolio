@@ -22,6 +22,7 @@ import DevProjectsSection from '../views/DevProjectsSection';
             imageSrc: '/images/invis-art.JPG',
             title: "Invisible Story Artwork",
             description: '//Coming soon// Meet the characters behind the unseen story',
+            url: '/Artwork'
         },
 
 

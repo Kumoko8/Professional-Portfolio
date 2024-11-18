@@ -62,7 +62,7 @@ export default function AppFooter() {
                 <SocialIcon href="https://www.twitter.com/tAuen8" url="wwww.twitter.com" target="_blank" />
               </Grid>
               <Grid item >
-                <a target='blank' href= '/pdf/GoldenGenFullStack.pdf' style={{ textDecoration: 'none' }}>
+                <a target='blank' href= '/pdf/GoldenPortfolioResume24.pdf' style={{ textDecoration: 'none' }}>
                 <Typography sx={{ color: 'rgb(249 219 56)', mb: 2, transition: 'color 0.3s ease' }} hover={{ textDecoration: 'white' }}>
                   View My Resume
                 </Typography>
