@@ -23,6 +23,16 @@ const artworkItems = [
         fullImage: '/images/make-life3_full.jpg',
         title: 'Make Life',
     },
+    {
+        thumbnail: '/images/Vs_Slime4_thumb.jpg',
+        fullImage: '/images/Vs_Slime4_full.jpg',
+        title: 'Vs Slime',
+    },
+    {
+        thumbnail: '/images/furi-docs_thumb.jpg',
+        fullImage: '/images/furi-docs_full.jpg',
+        title: 'Furi Docs',
+    },
     // Add more artworks as needed
 ];
 
