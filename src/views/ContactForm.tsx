@@ -38,7 +38,7 @@ function ContactForm() {
             portalId="44406398"
             formId="b8e767ed-bf30-47bc-b2e3-150d52611e2c"
             onSubmit={() => console.log('Form submitted')}
-            onReady={(form) => console.log('Form ready:', form)}
+            onReady={(form: any) => console.log('Form ready:', form)}
             loading={<div>Loading...</div>}
           />
         </Box>

@@ -56,6 +56,8 @@ const AppBar = styled(MuiAppBar, {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
   }),
+  backgroundColor: '#000',
+  color: '#fff',
   ...(open && {
     width: `calc(100% - ${drawerWidth}px)`,
     transition: theme.transitions.create(['margin', 'width'], {
@@ -100,7 +102,7 @@ export default function PersistentDrawerRight() {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
-        <Toolbar>
+        <Toolbar sx={{ backgroundColor: 'black' }}>
             <Link to='/'>
             <img src="/images/new-K-logo.JPG" style={{ maxHeight: '75px', maxWidth:'75px', marginRight: '10px', borderRadius: 8 }}/>
             </Link>

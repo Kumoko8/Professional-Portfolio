@@ -2,7 +2,7 @@ import * as React from 'react';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '../components/Typography';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/GridLegacy';
 import Dialog from '@mui/material/Dialog';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -38,8 +38,9 @@ const artworkItems = [
 
 function Artwork() {
     const [open, setOpen] = React.useState(false);
-    const [selectedImage, setSelectedImage] = React.useState(null);
+    const [selectedImage, setSelectedImage] = React.useState('');
 
+    /** @param {string} image */
     const handleClickOpen = (image) => {
         setSelectedImage(image);
         setOpen(true);
@@ -47,7 +48,7 @@ function Artwork() {
 
     const handleClose = () => {
         setOpen(false);
-        setSelectedImage(null);
+        setSelectedImage('');
     };
 
     return (
@@ -58,7 +59,7 @@ function Artwork() {
                 </Typography>
                 <Grid container spacing={2} justifyContent="center">
                     {artworkItems.map((art, index) => (
-                        <Grid item xs={6} sm={4} md={3} key={index}>
+                        <Grid xs={6} sm={4} md={3} key={index} component="div">
                             <img
                                 src={art.thumbnail}
                                 alt={art.title}

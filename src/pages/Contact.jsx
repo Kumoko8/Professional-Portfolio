@@ -21,7 +21,7 @@ function Contact() {
                     </Typography>
                 </div>
                 <Typography variant="h3" component="h3" gutterBottom sx={{ marginBottom: 2, color: 'black' }}>
-                    Let's Collaborate!
+                    Let&apos;s Collaborate!
                 </Typography>
 
                 <Box sx={{ display: 'flexbox', flexDirection: 'column', flexGrow: 1 }}>
@@ -31,12 +31,12 @@ function Contact() {
                         portalId="44406398"
                         formId="b8e767ed-bf30-47bc-b2e3-150d52611e2c"
                         onSubmit={() => console.log('Form submitted')}
-                        onReady={(form) => console.log('Form ready:', form)}
+                        onReady={(/** @type {any} */ form) => console.log('Form ready:', form)}
                         loading={<div>Loading...</div>}
                     />
                 </Box>
                 <p style={{ color: 'black' }}>
-                    Contact form not working? Try <a href="https://share.hsforms.com/1uOdn7b8wR7yy4xUNUmEeLAqfs72" target="_blank"> this </a> link
+                    Contact form not working? Try <a href="https://share.hsforms.com/1uOdn7b8wR7yy4xUNUmEeLAqfs72" target="_blank" rel="noreferrer"> this </a> link
                 </p>
         
             </div>

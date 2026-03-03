@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 
-const TransparentBackgroundText = ({ text }) => {
+const TransparentBackgroundText = ({ text }: { text: string }) => {
   return (
     <Box
       sx={{

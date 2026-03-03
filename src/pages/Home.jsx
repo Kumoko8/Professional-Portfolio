@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import ContactForm from '../views/ContactForm';
 import DevProjectsSection from '../views/DevProjectsSection';
 import Hero from '../views/Hero';
 import WithRoot from '../components/WithRoot';

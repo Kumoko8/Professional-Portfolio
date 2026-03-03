@@ -4,9 +4,11 @@ import { green, red} from '@mui/material/colors';
 const rawTheme = createTheme({
   components: {
     MuiToolbar: {
-      root: {
-        backgroundColor: 'red', // Your desired background color
-        color: 'white',             // Your desired text color
+      styleOverrides: {
+        root: {
+          backgroundColor: 'red', // Your desired background color
+          color: 'white', // Your desired text color
+        },
       },
     },
   },

@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/GridLegacy';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../src/theme'; // Import your custom theme
 import NavBar from './components/NavBar';
@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavBar />
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={12} component="div">
         </Grid>
       </Grid>
       <main className="mx-3">

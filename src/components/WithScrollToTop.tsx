@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
-const WithScrollToTop = (WrappedComponent) => {
-  const WithScrollToTop = (props) => {
+const WithScrollToTop = (WrappedComponent: React.ComponentType<any>) => {
+  const WithScrollToTop = (props: any) => {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);

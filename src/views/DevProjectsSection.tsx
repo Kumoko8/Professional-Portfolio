@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Theme } from '@mui/material/styles';
 import { SxProps } from '@mui/system';
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/GridLegacy';
 import Container from '@mui/material/Container';
 import Typography from '../components/Typography';
 import Button from '../components/Button';
@@ -23,8 +23,8 @@ const imageContainer: SxProps<Theme> = {
   },
 };
 
-function DevProjectsSection({ projects, sectionTitle, additionalProps, button }) {
-  const mergedProjects = projects.map((project, index) => ({
+function DevProjectsSection({ projects, sectionTitle, additionalProps, button }: { projects: any[]; sectionTitle?: string; additionalProps?: any[]; button?: any }) {
+  const mergedProjects = projects.map((project: any, index: number) => ({
     ...project,
     ...(additionalProps?.[index] || {}), // Check if additionalProps is defined
   }));
@@ -44,8 +44,8 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button })
         <div>
           <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
             <Grid container spacing={5}>
-              {mergedProjects.map((project, index) => (
-                <Grid key={index} item xs={12} md={4}>
+              {mergedProjects.map((project: any, index: number) => (
+                <Grid key={index} xs={12} md={4} component="div">
                   <Box sx={{ ...item, ...imageContainer } as SxProps<Theme>}>
                     <a href={project.url} target="_blank" rel="noopener noreferrer">
                       <Box
