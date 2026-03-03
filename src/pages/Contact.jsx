@@ -27,8 +27,8 @@ function Contact() {
                 <Box sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
                     <ContactFormClient />
                 </Box>
-               
-        
+
+
             </div>
         </React.Fragment>
     )

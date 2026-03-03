@@ -1,4 +1,4 @@
 declare module 'react-hubspot-form' {
-  const HubSpotForm: any;
-  export default HubSpotForm;
+    const HubSpotForm: any;
+    export default HubSpotForm;
 }

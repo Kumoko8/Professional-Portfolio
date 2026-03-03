@@ -9,7 +9,7 @@ export default function WithRoot<P extends Record<string, any>>(
   function WithRoot(props: P) {
     return (
       <ThemeProvider theme={theme}>
-        
+
         <CssBaseline />
         <div style={{ overflowX: 'hidden' }}>
           {/* Ensure that no horizontal overflow occurs */}

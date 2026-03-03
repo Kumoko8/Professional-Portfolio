@@ -52,7 +52,7 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button }:
                         component="img"
                         src={project.imageSrc}
                         alt={`project-${index}`}
-                        sx={{ height: '15em', transition: 'transform 0.3s ease-in-out', mb:3}}
+                        sx={{ height: '15em', transition: 'transform 0.3s ease-in-out', mb: 3 }}
                       />
                     </a>
                     <Typography variant="h5" sx={{ my: 1, color: 'rgb(26, 71, 146)' }}>

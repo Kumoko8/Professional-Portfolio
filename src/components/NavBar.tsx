@@ -41,7 +41,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
     }),
     marginRight: 0,
   }),
- 
+
   position: 'relative',
 }));
 
@@ -90,23 +90,23 @@ export default function PersistentDrawerRight() {
   };
 
   const menuOptions = [
-    { text: 'Home', path: '/'},
-    { text: 'About', path: '/about'},
-    { text: 'Contact', path: '/contact'},
-    { text: 'Projects', path: '/projects'},
-    
-];
-  const menuIcons: React.ComponentType<any>[] = [HomeIcon ,FaceIcon , ContactPhoneIcon, PaletteIcon ]
+    { text: 'Home', path: '/' },
+    { text: 'About', path: '/about' },
+    { text: 'Contact', path: '/contact' },
+    { text: 'Projects', path: '/projects' },
+
+  ];
+  const menuIcons: React.ComponentType<any>[] = [HomeIcon, FaceIcon, ContactPhoneIcon, PaletteIcon]
 
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar sx={{ backgroundColor: 'black' }}>
-            <Link to='/'>
-            <img src="/images/new-K-logo.JPG" style={{ maxHeight: '75px', maxWidth:'75px', marginRight: '10px', borderRadius: 8 }}/>
-            </Link>
-          <Typography variant="h6" noWrap sx={{ flexGrow: 1 , textAlign: 'right'}} component="div">
+          <Link to='/'>
+            <img src="/images/new-K-logo.JPG" style={{ maxHeight: '75px', maxWidth: '75px', marginRight: '10px', borderRadius: 8 }} />
+          </Link>
+          <Typography variant="h6" noWrap sx={{ flexGrow: 1, textAlign: 'right' }} component="div">
             Menu
           </Typography>
           <IconButton
@@ -122,7 +122,7 @@ export default function PersistentDrawerRight() {
       </AppBar>
       <Main open={open}>
         <DrawerHeader />
-        
+
       </Main>
       <Drawer
         sx={{
@@ -143,18 +143,18 @@ export default function PersistentDrawerRight() {
         </DrawerHeader>
         <Divider />
         <List>
-          {menuOptions.map(({text, path}, index) => (
+          {menuOptions.map(({ text, path }, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton component={Link} to={path} onClick={handleDrawerClose}>
                 <ListItemIcon>
-                  {React.createElement(menuIcons[index % menuIcons.length]) }
+                  {React.createElement(menuIcons[index % menuIcons.length])}
                 </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItemButton>
             </ListItem>
           ))}
         </List>
-      
+
       </Drawer>
     </Box>
   );

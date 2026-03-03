@@ -9,17 +9,17 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <ThemeProvider theme={theme}>
-    <div>
-      <NavBar />
-      <Grid container>
-        <Grid item xs={12} component="div">
+      <div>
+        <NavBar />
+        <Grid container>
+          <Grid item xs={12} component="div">
+          </Grid>
         </Grid>
-      </Grid>
-      <main className="mx-3">
-        <Outlet />
-      </main>
-      <Footer />
-    </div>
+        <main className="mx-3">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </ThemeProvider>
   );
 }

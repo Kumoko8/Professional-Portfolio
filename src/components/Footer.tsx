@@ -61,7 +61,7 @@ export default function AppFooter() {
 
               </Grid>
               <Grid component="div">
-                <a target='blank' href='/pdf/GoldenPortfolioResume24.pdf' style={{ textDecoration: 'none' }}>
+                <a target='blank' href='https://docs.google.com/document/d/17ttZ3e-OEfly93WRQuI0uGCjSjn6ZjkPNnGCqTG5D_o/edit?usp=sharing' style={{ textDecoration: 'none' }}>
                   <Typography sx={{ color: 'rgb(249 219 56)', mb: 2, transition: 'color 0.3s ease' }} hover={{ textDecoration: 'white' }}>
                     View My Resume
                   </Typography>

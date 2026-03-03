@@ -9,13 +9,13 @@ const TransparentBackgroundText = ({ text }: { text: string }) => {
         color: 'white',
         textAlign: 'center',
         padding: '1rem',
-        maxWidth: '100%', 
-        margin: 'auto', 
-        display:'flexbox',
-      
+        maxWidth: '100%',
+        margin: 'auto',
+        display: 'flexbox',
+
       }}
     >
-      <Typography variant="h1" component="h1" gutterBottom style={{color: 'white'}}>
+      <Typography variant="h1" component="h1" gutterBottom style={{ color: 'white' }}>
         {text}
       </Typography>
       <Box
