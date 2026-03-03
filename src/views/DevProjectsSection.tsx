@@ -45,7 +45,7 @@ function DevProjectsSection({ projects, sectionTitle, additionalProps, button }:
           <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
             <Grid container spacing={5}>
               {mergedProjects.map((project: any, index: number) => (
-                <Grid key={index} xs={12} md={4} component="div">
+                <Grid key={index} item xs={12} md={4} component="div" sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' } }}>
                   <Box sx={{ ...item, ...imageContainer } as SxProps<Theme>}>
                     <a href={project.url} target="_blank" rel="noopener noreferrer">
                       <Box

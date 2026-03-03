@@ -44,12 +44,11 @@ function Hero() {
         Developer * Artist * Educator
       </Typography>
       </Box>
-      <Typography
-        variant="h6"
-        sx={{
+      <p
+        style={{
           display: 'flex',
-          pt: 5,
-          marginBottom: 2,
+          paddingTop: '30px',
+          marginBottom: '2px',
           maxWidth: '90%',
           margin: 'auto', // Center horizontally
           textAlign: 'center',
@@ -57,7 +56,7 @@ function Hero() {
         }}
       >
         I use my art and education experience to create wonderfully intuitive applications. I love to make content that helps people transform the way they think about themselves and what they can do.
-      </Typography>
+      </p>
 
     </div>
   );

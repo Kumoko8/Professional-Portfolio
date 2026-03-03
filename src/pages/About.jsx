@@ -34,12 +34,12 @@ function AboutMe() {
         </Typography>
 
       </div>
-        <Typography variant="body1" sx={{ marginBottom: 10, padding: 2, minWidth: '60%', maxWidth: '70%', margin: 'auto', display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center', color: 'black' }}>
+        <p style={{ marginBottom: 10, padding: 2, minWidth: '60%', maxWidth: '70%', margin: 'auto', display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center', color: 'black' }}>
 
-            Seven years experience teaching middle school math and science gives me insight into how people think & learn and has developed a love for helping people excel. A lifetime of being an artist has given me an eye for design and love for character development and illustration. My experience as a full-stack web developer has allowed me the opportunity to bring it all together and breathe life into learning.
+            Nine years of teaching experience in middle and high school math, science and Special Education science gives me insight into how people think & learn. A lifetime of being an artist has given me an eye for design and love for character development and illustration. My experience as a full-stack web developer has allowed me the opportunity to bring it all together and breathe life into learning.
             We are based in Austin, TX and we enjoy playing sports, growing our own food, and crafting!
       
-        </Typography>
+        </p>
         <Typography sx={{ color: 'black', mb: 5, mt: 6 }}>
        
             Art illuminates the heart. Education illuminates the mind. Technology brings them together.
